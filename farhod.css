@@ -96,4 +96,96 @@ main section .container .container_cardlar .right .card .p_lar .qizil {
 }
 main section .container .container_cardlar .right .card img {
   width: 100%;
+}
+main .container .cardlar {
+  display: flex;
+  align-items: center;
+}
+main .container .cardlar .card_1 {
+  width: 50%;
+  background: rgb(38, 38, 39);
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+main .container .cardlar .card_1 h1 {
+  font-family: Paytone One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: rgb(212, 0, 179);
+  padding: 10px 0;
+}
+main .container .cardlar .card_1 p {
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: white;
+}
+main .container .cardlar .card2 {
+  width: 50%;
+  background: black;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+main .container .cardlar .card2 h1 {
+  font-family: Paytone One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 52px;
+  line-height: 64px;
+  letter-spacing: 1px;
+}
+main .container .container_cardlar {
+  display: flex;
+}
+main .container .container_cardlar .card7 {
+  text-align: center;
+  width: 32%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .container .container_cardlar .card7 h1 {
+  padding: 10px 0;
+  transform: translate(0, -50px);
+}
+main .container .container_cardlar .card7 img {
+  width: 100%;
+}
+main .container .container_cardlar .card7 .kichkina {
+  width: 30%;
+  transform: translate(0, -80px);
+}
+main .container .container_cardlar .card7 .kichkina_1 {
+  width: 30%;
+  transform: translate(0, -80px);
+  z-index: 40;
+}
+main .container .container_cardlar .card7 .img1 {
+  z-index: 50;
+}
+main .container .container_cardlar .card7 a {
+  color: white;
+  font-family: Paytone One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 13px 33px;
+  background: rgb(212, 0, 179);
 }/*# sourceMappingURL=farhod.css.map */

@@ -112,4 +112,110 @@ main{
             }
         }
     }
+
+    .container{
+        .cardlar{
+            display: flex;
+            align-items: center;
+            .card_1{
+                width: 50%;
+                background: rgba(38, 38, 39, 1);
+                padding-top:60px ;
+                padding-left: 60px;
+                padding-right: 60px;
+                h1{
+                    font-family: Paytone One;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 18px;
+                    line-height: 20px;
+                    letter-spacing: 1px;
+                    color: rgba(212, 0, 179, 1);
+                    padding: 10px 0;
+                    
+                }
+                p{
+                    font-family: Source Sans Pro;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 20px;
+                    line-height: 32px;
+                    letter-spacing: 1px;
+                    color: white;
+                    
+                }
+
+            }
+            .card2{
+                width: 50%;
+                background: black;
+                padding-top:60px ;
+                padding-left: 60px;
+                padding-right: 60px;
+                color: white;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    font-family: Paytone One;
+                      font-weight: 400;
+                      font-style: Regular;
+                      font-size: 52px;
+                      line-height: 64px;
+                      letter-spacing: 1px;
+                      
+                }
+
+            }
+        }
+        .container_cardlar{
+            display: flex;
+            .card7{
+                text-align: center;
+                width: 32%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h1{
+                    padding:10px 0;
+                    transform: translate(0 ,-50px);
+                   
+                }
+              
+                img{
+                   width: 100%;
+                }
+                .kichkina{
+             width: 30%;
+                  transform: translate(0 ,-80px);
+                }
+                .kichkina_1{
+                    
+                    width: 30%;
+                  transform: translate(0 ,-80px);
+                  z-index: 40;
+                    
+                }
+                .img1{
+                   z-index: 50;
+                }
+                a{
+                    color: white;
+                    font-family: Paytone One;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 18px;
+                    line-height: 20px;
+                    letter-spacing: 1px;
+                    text-align: center;
+                    padding: 13px 33px;
+                    background: rgba(212, 0, 179, 1);
+               
+                    
+                }
+            }
+        }
+    }
 }
