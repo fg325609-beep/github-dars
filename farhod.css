@@ -1,1 +1,99 @@
-/*# sourceMappingURL=farhod.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 30px;
+  background: black;
+  margin: 0 auto;
+}
+
+header .container h1 {
+  color: white;
+  text-align: center;
+}
+header .container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+header .container .cards .card {
+  position: relative;
+  margin-top: 50px;
+  width: 30%;
+  color: white;
+  background: rgb(38, 38, 39);
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+header .container .cards .card h2 {
+  padding: 20px 0;
+}
+header .container .cards .card i {
+  font-size: 40px;
+}
+header .container .cards .card img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+main section .container .container_cardlar {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding-top: 200px;
+  color: white;
+}
+main section .container .container_cardlar .left {
+  width: 40%;
+}
+main section .container .container_cardlar .left h1 {
+  padding: 10px 0;
+}
+main section .container .container_cardlar .left .card {
+  width: 100%;
+  padding: 50px 0;
+}
+main section .container .container_cardlar .left .card .p_lar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section .container .container_cardlar .left .card .p_lar .qizil {
+  color: rgb(212, 0, 179);
+}
+main section .container .container_cardlar .left .card img {
+  width: 100%;
+}
+main section .container .container_cardlar .right {
+  transform: translate(0, -100px);
+  width: 40%;
+}
+main section .container .container_cardlar .right h1 {
+  padding: 10px 0;
+}
+main section .container .container_cardlar .right .card {
+  width: 100%;
+  padding: 50px 0;
+}
+main section .container .container_cardlar .right .card .p_lar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section .container .container_cardlar .right .card .p_lar .qizil {
+  color: rgb(212, 0, 179);
+}
+main section .container .container_cardlar .right .card img {
+  width: 100%;
+}/*# sourceMappingURL=farhod.css.map */
