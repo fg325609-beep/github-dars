@@ -6,6 +6,91 @@
     text-decoration: none;
 }
 
+h1{
+     font-family: "Paytone One", sans-serif;
+}
+
+p{
+      font-family: "Source Code Pro", monospace;
+}
+
+.container{
+    .navbar{
+        .munu2{
+            display: none
+        }
+        .boshqa_a{
+            padding: 10px 30px;
+           background: rgba(212, 0, 179, 1);
+           color: white;
+         font-family: Paytone One;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            text-align: center;
+            
+
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 0;
+        i{
+            color: white;
+            font-size: 50px;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            .munu{
+                display: none;
+            }
+            a{
+                color: white;
+                padding: 10px 20px;
+                border-radius: 20px;
+                border: 1px solid black;
+                &:hover{
+                    border: 1px solid white;
+                }
+            }
+        }
+    }
+    .shov_case{
+        width: 100%;
+        background-image: url(./img/IMAGE\ \(10\).png);
+        background-size: cover;
+        height: 496px;
+       
+     .shov_text{
+        background: black;
+        width: 50%;
+         h1{
+            text-align: start;
+            font-family: Paytone One;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 84px;
+            line-height: 100px;
+            letter-spacing: 1px;
+            
+        }
+        p{
+            font-family: Source Sans Pro;
+             font-weight: 400;
+             font-style: Regular;
+             font-size: 20px;
+             line-height: 32px;
+             letter-spacing: 1px;
+             color: white;
+             
+        }
+     }       
+    }
+}
 
 .container{
     width: 100%;
@@ -19,6 +104,7 @@ header{
        h1{
            color: white;
            text-align: center;
+           padding-top: 100px;
        }
     .cards{
         display: flex;
@@ -218,4 +304,224 @@ main{
             }
         }
     }
+}
+
+
+footer{
+    .container{
+        h3{
+            text-align: center;
+            color: white;
+            padding: 30px 0;
+        }
+       
+          .f_container{
+            display: flex;
+            align-items: center;
+           padding:35px ;
+           justify-content: space-between;
+           padding-top:100px ;
+           .footeri{
+            color: white;
+            font-size: 50px;
+           }
+           ul{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            a{
+
+                color: white;
+                font-family: Source Sans Pro;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 18px;
+                line-height: 20px;
+                letter-spacing: 1px;
+                padding: 20px 20px;
+                border-radius: 20px;
+                border: 1px solid black;
+                &:hover{
+                    border: 1px solid white;
+                }
+            }
+               
+           }
+           .iconlar{
+            a{
+                color: white;
+            }
+            color: white;
+            font-size: 30px;
+           }
+          }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1108px){
+    header{
+        .container{
+            .shov_case{
+                .shov_text{
+                    h1{
+                        font-size: 50px;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:800px){
+    header{
+        .container{
+            .navbar{
+                ul{
+                    gap: 0;
+                }
+            }
+            .shov_case{
+                .shov_text{
+                   h1{
+                    text-align: center;
+                    padding: 0;
+                   }
+                    width: 100%;
+                    text-align: center;
+                }
+                .shov_text{
+                    h1{
+                        font-size: 25px;
+                        line-height: normal;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media(max-width:730px){
+    footer{
+        .container{
+            .f_container{
+                padding: 20px;
+                ul{
+                    gap: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+@media(max-width:600px){
+  header{
+    .container{
+        .cards{
+            flex-direction: column;
+            .card{
+                width: 100%;
+            }
+        }
+    }
+  }
+}
+
+
+
+@media(max-width:620px){
+    header{
+        .container{
+            .navbar{
+                ul{
+                    display: none;
+                }
+                .munu2{
+                    display: block;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+
+
+    footer{
+        .container{
+            .f_container{
+                flex-wrap: wrap;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+    main{
+        section{
+            .container{
+                .container_cardlar{
+                    flex-direction: column;
+                    .left{
+                        width: 100%;
+                    }
+                    .right{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        section{
+            .container{
+                .cardlar{
+                    flex-direction: column;
+                    .card_1{
+
+                        width: 100%;
+                    }
+                    .card2{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:500px){
+main{
+    section{
+        .container{
+            .container_cardlar{
+                flex-direction: column;
+                .card7{
+                    width: 100%;
+                    padding-top: 40px;
+                }
+            }
+        }
+    }
+}
 }

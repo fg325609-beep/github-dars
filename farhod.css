@@ -6,6 +6,85 @@
   text-decoration: none;
 }
 
+h1 {
+  font-family: "Paytone One", sans-serif;
+}
+
+p {
+  font-family: "Source Code Pro", monospace;
+}
+
+.container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.container .navbar .munu2 {
+  display: none;
+}
+.container .navbar .boshqa_a {
+  padding: 10px 30px;
+  background: rgb(212, 0, 179);
+  color: white;
+  font-family: Paytone One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.container .navbar i {
+  color: white;
+  font-size: 50px;
+}
+.container .navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.container .navbar ul .munu {
+  display: none;
+}
+.container .navbar ul a {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.container .navbar ul a:hover {
+  border: 1px solid white;
+}
+.container .shov_case {
+  width: 100%;
+  background-image: url(./img/IMAGE\ \(10\).png);
+  background-size: cover;
+  height: 496px;
+}
+.container .shov_case .shov_text {
+  background: black;
+  width: 50%;
+}
+.container .shov_case .shov_text h1 {
+  text-align: start;
+  font-family: Paytone One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 84px;
+  line-height: 100px;
+  letter-spacing: 1px;
+}
+.container .shov_case .shov_text p {
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: white;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -17,6 +96,7 @@
 header .container h1 {
   color: white;
   text-align: center;
+  padding-top: 100px;
 }
 header .container .cards {
   display: flex;
@@ -188,4 +268,134 @@ main .container .container_cardlar .card7 a {
   text-align: center;
   padding: 13px 33px;
   background: rgb(212, 0, 179);
+}
+
+footer .container h3 {
+  text-align: center;
+  color: white;
+  padding: 30px 0;
+}
+footer .container .f_container {
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+footer .container .f_container .footeri {
+  color: white;
+  font-size: 50px;
+}
+footer .container .f_container ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+footer .container .f_container ul a {
+  color: white;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+footer .container .f_container ul a:hover {
+  border: 1px solid white;
+}
+footer .container .f_container .iconlar {
+  color: white;
+  font-size: 30px;
+}
+footer .container .f_container .iconlar a {
+  color: white;
+}
+
+@media (max-width: 1108px) {
+  header .container .shov_case .shov_text h1 {
+    font-size: 50px;
+    line-height: normal;
+  }
+}
+@media (max-width: 800px) {
+  header .container .navbar ul {
+    gap: 0;
+  }
+  header .container .shov_case .shov_text {
+    width: 100%;
+    text-align: center;
+  }
+  header .container .shov_case .shov_text h1 {
+    text-align: center;
+    padding: 0;
+  }
+  header .container .shov_case .shov_text h1 {
+    font-size: 25px;
+    line-height: normal;
+  }
+  header .container .shov_case .shov_text p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 730px) {
+  footer .container .f_container {
+    padding: 20px;
+  }
+  footer .container .f_container ul {
+    gap: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 600px) {
+  header .container .cards {
+    flex-direction: column;
+  }
+  header .container .cards .card {
+    width: 100%;
+  }
+}
+@media (max-width: 620px) {
+  header .container .navbar ul {
+    display: none;
+  }
+  header .container .navbar .munu2 {
+    display: block;
+    font-size: 20px;
+  }
+  footer .container .f_container {
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  main section .container .container_cardlar {
+    flex-direction: column;
+  }
+  main section .container .container_cardlar .left {
+    width: 100%;
+  }
+  main section .container .container_cardlar .right {
+    width: 100%;
+  }
+  main section .container .cardlar {
+    flex-direction: column;
+  }
+  main section .container .cardlar .card_1 {
+    width: 100%;
+  }
+  main section .container .cardlar .card2 {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  main section .container .container_cardlar {
+    flex-direction: column;
+  }
+  main section .container .container_cardlar .card7 {
+    width: 100%;
+    padding-top: 40px;
+  }
 }/*# sourceMappingURL=farhod.css.map */
